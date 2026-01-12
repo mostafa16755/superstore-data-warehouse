@@ -95,7 +95,7 @@ This layer enables fast, reliable querying for BI tools and ad-hoc analysis.
 
 ---
 
-## 🔁 Idempotent Loading Strategy
+## Idempotent Loading Strategy
 All load scripts are designed to be safe to run multiple times:
 - Existing records are removed using business keys
 - Fresh data is inserted
